@@ -1,0 +1,31 @@
+{
+  "name": "login-formulario",
+  "version": "1.0.0",
+  "description": "Desafio de la clase 23 - 24 de coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moscchi/login-formulario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moscchi/login-formulario/issues"
+  },
+  "homepage": "https://github.com/moscchi/login-formulario#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
